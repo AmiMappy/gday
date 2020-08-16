@@ -7,4 +7,9 @@ It includes:-
 	5. Economic Times
 	6. Slashdot News
 	7. Quote of the day from Wikiquote
-	8. ...and itneresting facts from wikipedia's main page.
+	8. ...and interesting facts from wikipedia's main page.
+	
+Upcoming feature...
+	1. Updates from your social media like Reddit, Instagram, Twitter etc.
+	2. Music video of the day
+	3. A daily playlist from Amazon Music. etc...
