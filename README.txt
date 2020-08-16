@@ -1,4 +1,4 @@
-This is a bash script which is a collection of python scripts that willbring you the best(if you don't think so, you can let me know) of the web.
+This is a bash script which is a collection of python scripts that will bring you the best(if you don't think so, you can let me know) of the web.
 It includes:-
 	1. A random wikipedia article
 	2. A wikipedia article on a random country
