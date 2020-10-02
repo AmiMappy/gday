@@ -1,5 +1,4 @@
 wikipedia
-BeautifulSoup
+BeautifulSoup4
 feedparser
 wikiquote
-
