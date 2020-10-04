@@ -11,3 +11,4 @@ xterm -hold -T "Economic Times" -e python3 $DIR/et.py
 xterm -hold -T "Random Country Wikipedia Article(because why not)" -e python3 $DIR/country.py
 xterm -hold -T "Did You Know?" -e python3 $DIR/dyk.py
 xterm -hold -T "Linux News" -e python3 $DIR/nuxnews.py
+xterm -hold -T "Astronomy Pic of the Day" -e python3 $DIR/apod.py
