@@ -19,3 +19,5 @@ print("--------DID YOU KNOW?--------\n\n")
 for li_tag in div[0].find_all('li'):
     if li_tag.text != "Archive" and li_tag.text != "Start a new article" and li_tag.text != "Nominate an article":
         print(li_tag.text)
+
+os.system("rm " + fullpath + "/wmpsrc.html")
