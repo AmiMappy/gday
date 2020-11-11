@@ -1,0 +1,10 @@
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 80183 (78K) [text/html]
+Saving to: ‘/home/mappy/Desktop/gday/src/temp/wmpsrc.html’
+
+     0K .......... .......... .......... .......... .......... 63%  450K 0s
+    50K .......... .......... ........                        100%  692K=0.2s
+
+2020-11-11 07:28:20 (516 KB/s) - ‘/home/mappy/Desktop/gday/src/temp/wmpsrc.html’ saved [80183/80183]
+

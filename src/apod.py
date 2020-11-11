@@ -13,6 +13,6 @@ print("-----------------------------------------------------------------------")
 print(response["explanation"])
 print("\nCourtesy: " + response["copyright"] + " and NASA(NASA Astronomy Picture of The Day)")
 
-os.system("wget " + response["url"] + " -O " + fullpath + "/" + img_file + " > /dev/null 2>&1")
-os.system("fim " + fullpath + "/" + img_file + " > /dev/null 2>&1")
-os.system("rm " + fullpath + "/" + img_file)
+os.system("wget " + response["url"] + " -O " + fullpath + "/temp/" + img_file + " > /dev/null 2>&1")
+os.system("fim " + fullpath + "/temp/" + img_file + " > /dev/null 2>&1")
+# os.system("rm " + fullpath + "/" + img_file) := instead this is handled by gday script

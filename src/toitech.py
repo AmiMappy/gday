@@ -2,7 +2,7 @@ import feedparser
 from bs4 import BeautifulSoup
 import os
 
-toi = feedparser.parse("https://timesofindia.indiatimes.com/rssfeedstopstories.cms")
+toi = feedparser.parse("https://timesofindia.indiatimes.com/rssfeeds/66949542.cms")
 
 print("----------TIMES OF INDIA----------")
 print("\n")
