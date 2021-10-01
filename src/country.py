@@ -236,4 +236,7 @@ countries = [
 ]
 
 random_country = countries[random.randint(0, 231)][1]
-print(wikipedia.page(random_country).content)
+try:
+	print(wikipedia.page(random_country).content)
+except:
+	print("Nothing to show. Cut this window to move on.")
