@@ -13,5 +13,5 @@ xterm -hold -T "Random Country Wikipedia Article(because why not)" -e python3 $D
 xterm -hold -T "Did You Know?" -e python3 $DIR/dyk.py
 xterm -hold -T "Linux News" -e python3 $DIR/nuxnews.py
 xterm -T "Astronomy Pic of the Day" -e python3 $DIR/apod.py
-xterm -T "Astronomy Pic of the Day" -e fim $DIR/temp/*.jpg
+xterm -hold -T "Astronomy Pic of the Day" -e fim $DIR/temp/*.jpg
 xterm -hold -T "DONE!" -e rm -rf $DIR/temp && rm $DIR/wget-log
