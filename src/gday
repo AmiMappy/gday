@@ -2,6 +2,7 @@
 
 echo $USER Welcome!
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+mkdir $DIR/temp
 python3 -m pip install -r requirements.txt
 xterm -hold -T "Quote of the Day" -e python3 $DIR/quote.py
 xterm -hold -T "Times of India --- Tech News" -e python3 $DIR/toitech.py
@@ -11,6 +12,6 @@ xterm -hold -T "Economic Times" -e python3 $DIR/et.py
 xterm -hold -T "Random Country Wikipedia Article(because why not)" -e python3 $DIR/country.py
 xterm -hold -T "Did You Know?" -e python3 $DIR/dyk.py
 xterm -hold -T "Linux News" -e python3 $DIR/nuxnews.py
-xterm -hold -T "Astronomy Pic of the Day" -e python3 $DIR/apod.py
-cd temp
-rm *
+xterm -T "Astronomy Pic of the Day" -e python3 $DIR/apod.py
+xterm -T "Astronomy Pic of the Day" -e fim $DIR/temp/*.jpg
+xterm -hold -T "DONE!" -e rm -rf $DIR/temp && rm $DIR/wget-log
